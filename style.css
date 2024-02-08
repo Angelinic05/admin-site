@@ -37,9 +37,7 @@ li {
 	list-style: none;
 }
 
-main {
-	z-index: 0;
-}
+
 
 
 
@@ -639,30 +637,17 @@ main .btn-send:hover {
 /* ---------------------------------------------------------------------------------------- */
 
 /* FLOTANTE */
-
-.ventana{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: #fff;
-    margin: 10%;
-    margin-left: 20%;
-    width: 900px;
-    height: 550px;
-    padding: 10px 20px;
-    position: relative;
-    z-index: 5;
-}
-
 .modal{
-    background-color: rgba(0, 0, 0, 0.9);
+	background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
-    margin-top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+	align-items: center;
+	top: 0;
+	left: 0;
+	bottom: 0;
     pointer-events: none;
     transition: all 0.1s;
     visibility: hidden;
+	z-index: 201;
 }
 
 
@@ -672,14 +657,28 @@ main .btn-send:hover {
     visibility: visible;
     transition: all 0.1s;
 }
+.ventana{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #fff;
+    margin-left: 25%;
+	top: 40%;
+    width: 70%;
+    height: 45%;
+    padding: 1%;
+    position: relative;
+	border-radius: 3%;
+	z-index: 201;
+}
+
+
 .cerrar {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    color: black;
-    text-decoration: none;
+    top: 3%;
+    right: 3%;
 }
 .foto-det img{
+	align-items: center;
     margin-top: 0;
     margin-left: 0;
     padding:5px;
@@ -688,35 +687,45 @@ main .btn-send:hover {
     width: 100%;
 }
 
+.cont-det{
+    padding: 4%;
+    display: grid;
+    grid-template-rows: 20% 20% 40% 9%;
+    gap: 2%;
+    text-transform: uppercase;
+	border-radius: 4%;
+	background-color:  rgb(240, 240, 240);
+}
+
 .titulo-det{
     display: flex;
     justify-content: center;
     color: black;
     font-weight: bold;
-    font-size: 20px;
-}
-.cont-det{
-    padding: 35px;
-    display: grid;
-    grid-template-rows: 5% 5% 5% 40% 10%;
-    gap: 30px;
-    text-transform: uppercase;
+    font-size: 90%;
 }
 
 .detalles-text{
+	display: grid;
     color: black;
-    border-radius: 20px;
-    padding: 4px;
     font-weight: bold;
+    font-size: 80%;
 }
 
-.boton-detalles:hover{
-    background-color: rgb(59, 59, 59);
+
+.ventana .icono {
+	color: green;
+	min-width: 1%;
+	margin-right: 6px;
 }
 
+.ventana .icono2{
+	color: green;
+}
 
 .tallas{
     display: flex;
+	gap: 2%;
 }
 
 .talla{
@@ -724,11 +733,10 @@ main .btn-send:hover {
     font-size: 15px;
     border-radius: 20%;
     padding: 5px;
-    border: 2px solid black;
 }
 
 .talla:hover{
-    background-color: rgb(110, 110, 110);
+    background-color: rgb(12, 124, 12);
 }
 
 
@@ -737,75 +745,6 @@ main .btn-send:hover {
 /* PRUEBA */
 
 
-.overlay { 
-    position: fixed;
-    z-index: 5;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.7);
-    transition: opacity 0.1;
-    visibility: hidden;
-    opacity: 0;
-    background-color: rgba(0, 0, 0, 0.305);
-    backdrop-filter: blur(10px);
-}
-
-.overlay:target{
-    visibility: visible;
-    opacity: 1;
-}
-
-#popupBody{
-    width: 50%;
-    height: 42%;
-    padding: 20px;
-    padding-top: ;
-    border-radius: 15px;
-    box-shadow: 0 0  5px #ccc;
-    background: #FFF;
-    position:relative;
-    margin: 2% auto;
-    transition: all 0.4s ease-in-out;
-}
-
-#cerrar{
-    position: absolute;
-    top:3px;
-    right: 8px;
-    font-size: 4vw;
-    font-weight: bold;
-    text-decoration: none;
-    transition: all 200ms;
-}
-.popupContent{
-    width: 100%;
-    height: 100%;
-    /* border: 2px solid black; */
-    display: grid;
-    grid-template-columns: 60% 40%;
-    grid-template-rows: 60% 40%;
-}
-.imgProd{
-    display: grid;
-    grid-template-columns:40% 60%;
-    grid-template-rows:repeat(auto-fill,minmax(20%,1fr)) ;
-    align-items: center;
-}
-.imgProd img{
-    object-fit:scale-down;
-    width: 100%;
-    height: 100%;
-}
-
-
-
-/* CAMBIOS DE IMAGEN */
-
-/* DESKTOP */
-.imgProd.des1 .imgThumb.p1:hover ~ .imgMain{content: url('');}
-.imgProd.des1 .imgThumb.p2:hover ~ .imgMain{content: url('/images/desktop/prod1/prodextra2.avif')}
 
 @media screen and (max-width: 768px) {
 	#content {
