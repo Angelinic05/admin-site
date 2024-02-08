@@ -466,7 +466,7 @@ main .card .label {
 	padding: 4%;
     display: grid;
     grid-template-rows: 20% 20% 20% 20%;
-    gap: 2%;
+    gap: 4%;
 	height: 100%;
     text-transform: uppercase;
 	border-radius: 4%;
@@ -525,28 +525,26 @@ main .card .label {
 
 
 
-.item21{background-image: url(images/camisetas/); }
-.item22{background-image: url(images/camisetas/); }
+.item21{background-image: url(images/camisetas/1detras.jpg); }
+.item22{background-image: url(images/camisetas/1.jpg); }
 
-.item23{background-image: url(images/camisetas/); }
-.item24{background-image: url(images/camisetas/); }
+.item23{background-image: url(images/camisetas/44.jpg); }
+.item24{background-image: url(images/camisetas/4.jpg); }
 
-.item25{background-image: url(images/camisetas/); }
-.item26{background-image: url(images/camisetas/); }
+.item25{background-image: url(images/camisetas/33.jpg); }
+.item26{background-image: url(images/camisetas/3.jpg); }
 
-.item27{background-image: url(images/camisetas/); }
-.item28{background-image: url(images/camisetas/); }
+.item27{background-image: url(images/camisetas/22.jpg); }
+.item28{background-image: url(images/camisetas/2.jpg); }
 
-.item29{background-image: url(images/camisetas/); }
-.item30{background-image: url(images/camisetas/); }
+.item29{background-image: url(images/camisetas/5.jpg); }
+.item30{background-image: url(images/camisetas/55.jpg); }
 
-.item31{background-image: url(images/camisetas/); }
-.item32{background-image: url(images/camisetas/); }
+.item31{background-image: url(images/camisetas/66.jpg); }
+.item32{background-image: url(images/camisetas/6.jpg); }
 
-.item33{background-image: url(images/camisetas/); }
-.item34{background-image: url(images/camisetas/); }
-
-.item21, .item22, .item23, .item24, .item25, .item26, .item27, .item28{
+.item21, .item22, .item23, .item24, .item25, .item26, .item27, .item28,
+.item29, .item30, .item31, .item32{
 	background-size: cover;
 	width: 80%;
 	height: 110%;
@@ -563,20 +561,155 @@ main .card .label {
 	display: none;
 }
 
-.ventana:has(.item1:hover) .imagen1{
+.ventana:has(.item21:hover) .imagen1{
 	display: block;
 } 
 
-.ventana:has(.item1:hover) .imagen2{
+.ventana:has(.item21:hover) .imagen2{
 	border: 1px solid green;
 	display: none;
 } 
 
-.ventana:has(.item11:hover) .imagen1{
+
+.ventana:has(.item23:hover) .imagen1{
 	display: block;
 } 
 
-.ventana:has(.item11:hover) .imagen2{
+.ventana:has(.item23:hover) .imagen2{
+	border: 1px solid green;
+	display: none;
+} 
+
+.ventana:has(.item25:hover) .imagen1{
+	display: block;
+} 
+
+.ventana:has(.item25:hover) .imagen2{
+	border: 1px solid green;
+	display: none;
+} 
+
+
+.ventana:has(.item27:hover) .imagen1{
+	display: block;
+} 
+
+.ventana:has(.item27:hover) .imagen2{
+	border: 1px solid green;
+	display: none;
+} 
+
+.ventana:has(.item29:hover) .imagen1{
+	display: block;
+} 
+
+.ventana:has(.item29:hover) .imagen2{
+	border: 1px solid green;
+	display: none;
+} 
+
+.ventana:has(.item31:hover) .imagen1{
+	display: block;
+} 
+
+.ventana:has(.item31:hover) .imagen2{
+	border: 1px solid green;
+	display: none;
+} 
+
+
+
+
+/* ITEMSSSSSS  PANTALONES--------------------------------------------*/
+
+.item41{background-image: url(images/camisetas/1detras.jpg); }
+.item42{background-image: url(images/camisetas/1.jpg); }
+
+.item43{background-image: url(images/camisetas/44.jpg); }
+.item44{background-image: url(images/camisetas/4.jpg); }
+
+.item45{background-image: url(images/camisetas/33.jpg); }
+.item46{background-image: url(images/camisetas/3.jpg); }
+
+.item47{background-image: url(images/camisetas/22.jpg); }
+.item48{background-image: url(images/camisetas/2.jpg); }
+
+.item49{background-image: url(images/camisetas/5.jpg); }
+.item50{background-image: url(images/camisetas/55.jpg); }
+
+.item51{background-image: url(images/camisetas/66.jpg); }
+.item52{background-image: url(images/camisetas/6.jpg); }
+
+.item41, .item42, .item43, .item44, .item45, .item46, .item47, .item48,
+.item49, .item30, .item31, .item32{
+	background-size: cover;
+	width: 80%;
+	height: 110%;
+}
+
+.imagen1{
+	background-size: cover;
+	width: 100%;
+	width: 100%;
+}
+
+.foto-det .imagen1 
+{
+	display: none;
+}
+
+.ventana:has(.item41:hover) .imagen1{
+	display: block;
+} 
+
+.ventana:has(.item41:hover) .imagen2{
+	border: 1px solid green;
+	display: none;
+} 
+
+
+.ventana:has(.item43:hover) .imagen1{
+	display: block;
+} 
+
+.ventana:has(.item43:hover) .imagen2{
+	border: 1px solid green;
+	display: none;
+} 
+
+.ventana:has(.item45:hover) .imagen1{
+	display: block;
+} 
+
+.ventana:has(.item45:hover) .imagen2{
+	border: 1px solid green;
+	display: none;
+} 
+
+
+.ventana:has(.item47:hover) .imagen1{
+	display: block;
+} 
+
+.ventana:has(.item47:hover) .imagen2{
+	border: 1px solid green;
+	display: none;
+} 
+
+.ventana:has(.item49:hover) .imagen1{
+	display: block;
+} 
+
+.ventana:has(.item49:hover) .imagen2{
+	border: 1px solid green;
+	display: none;
+} 
+
+.ventana:has(.item51:hover) .imagen1{
+	display: block;
+} 
+
+.ventana:has(.item51:hover) .imagen2{
 	border: 1px solid green;
 	display: none;
 } 
