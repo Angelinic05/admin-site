@@ -725,7 +725,7 @@ main .card .label {
 .cont-det{
     padding: 4%;
     display: grid;
-    grid-template-rows: 20% 10% 50% 10%;
+    grid-template-rows: 10% 10% 50% 6%;
     gap: 2%;
 	height: 100%;
     text-transform: uppercase;
