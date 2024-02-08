@@ -525,7 +525,61 @@ main .card .label {
 
 
 
+.item21{background-image: url(images/camisetas/); }
+.item22{background-image: url(images/camisetas/); }
 
+.item23{background-image: url(images/camisetas/); }
+.item24{background-image: url(images/camisetas/); }
+
+.item25{background-image: url(images/camisetas/); }
+.item26{background-image: url(images/camisetas/); }
+
+.item27{background-image: url(images/camisetas/); }
+.item28{background-image: url(images/camisetas/); }
+
+.item29{background-image: url(images/camisetas/); }
+.item30{background-image: url(images/camisetas/); }
+
+.item31{background-image: url(images/camisetas/); }
+.item32{background-image: url(images/camisetas/); }
+
+.item33{background-image: url(images/camisetas/); }
+.item34{background-image: url(images/camisetas/); }
+
+.item21, .item22, .item23, .item24, .item25, .item26, .item27, .item28{
+	background-size: cover;
+	width: 80%;
+	height: 110%;
+}
+
+.imagen1{
+	background-size: cover;
+	width: 100%;
+	width: 100%;
+}
+
+.foto-det .imagen1 
+{
+	display: none;
+}
+
+.ventana:has(.item1:hover) .imagen1{
+	display: block;
+} 
+
+.ventana:has(.item1:hover) .imagen2{
+	border: 1px solid green;
+	display: none;
+} 
+
+.ventana:has(.item11:hover) .imagen1{
+	display: block;
+} 
+
+.ventana:has(.item11:hover) .imagen2{
+	border: 1px solid green;
+	display: none;
+} 
 
 
 
