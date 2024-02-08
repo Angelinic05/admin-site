@@ -625,23 +625,23 @@ main .card .label {
 .item41{background-image: url(images/camisetas/1detras.jpg); }
 .item42{background-image: url(images/camisetas/1.jpg); }
 
-.item43{background-image: url(images/camisetas/44.jpg); }
-.item44{background-image: url(images/camisetas/4.jpg); }
+.item43{background-image: url(images/pantalones/44.jpg); }
+.item44{background-image: url(images/pantalones/4.jpg); }
 
-.item45{background-image: url(images/camisetas/33.jpg); }
-.item46{background-image: url(images/camisetas/3.jpg); }
+.item45{background-image: url(images/pantalones/33.jpg); }
+.item46{background-image: url(images/pantalones/3.jpg); }
 
-.item47{background-image: url(images/camisetas/22.jpg); }
-.item48{background-image: url(images/camisetas/2.jpg); }
+.item47{background-image: url(images/pantalones/22.jpg); }
+.item48{background-image: url(images/pantalones/2.jpg); }
 
-.item49{background-image: url(images/camisetas/5.jpg); }
-.item50{background-image: url(images/camisetas/55.jpg); }
+.item49{background-image: url(images/pantalones/5.jpg); }
+.item50{background-image: url(images/pantalones/55.jpg); }
 
-.item51{background-image: url(images/camisetas/66.jpg); }
-.item52{background-image: url(images/camisetas/6.jpg); }
+.item51{background-image: url(images/pantalones/66.jpg); }
+.item52{background-image: url(images/pantalones/6.jpg); }
 
 .item41, .item42, .item43, .item44, .item45, .item46, .item47, .item48,
-.item49, .item30, .item31, .item32{
+.item49, .item50, .item51, .item52, .item53, .item54 {
 	background-size: cover;
 	width: 80%;
 	height: 110%;
