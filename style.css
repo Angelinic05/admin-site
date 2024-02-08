@@ -41,8 +41,6 @@ li {
 
 
 
-
-
 /* SIDEBAR */
 #sidebar {
 	position: fixed;
@@ -78,9 +76,10 @@ li {
 	top: 0;
 	left: 0;
 	z-index: 100;
+	gap: 10px;
 	background: var(--light);
 	transition: all .3s ease;
-	padding: 0 6px;
+	padding: 8px;
 }
 #sidebar .icon {
 	min-width: 48px;
@@ -94,8 +93,8 @@ li {
 	position: relative;
 }
 #sidebar .logo img {
-	width: 54px;
-	height: 45px;
+	width: 50px;
+	height: 40px;
 	object-fit: cover;
 	cursor: pointer;
 } 
@@ -361,6 +360,7 @@ main .info-data .card {
 }
 
 main .card .head {
+	padding: 5%;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
@@ -444,12 +444,12 @@ main .card .label {
 }
 .ventana{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 15% 50% 35%;
     background-color: #fff;
     margin-left: 25%;
-	top: 30%;
-    width: 40%;
-    height: 45%;
+	top: 20%;
+    width: 60%;
+    height: 65%;
     padding: 1%;
     position: relative;
 	border-radius: 3%;
@@ -462,17 +462,78 @@ main .card .label {
     right: 3%;
 }
 
+.fotos-cam{
+	padding: 4%;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20%;
+    gap: 2%;
+	height: 100%;
+    text-transform: uppercase;
+	border-radius: 4%;
+	z-index: 205;
+}
+
+/* ITEMSSSSSS  ABRIGOS--------------------------------------------*/
 
 
-.foto-det img{
-	align-items: center;
-    margin-top: 0;
-    margin-left: 0;
-    padding: 5px;
-    background-size: cover;
-    height: 100%;
+.item1{background-image: url(images/abrigos/1.jpg); }
+.item11{background-image: url(images/abrigos/fondo2.jpg); }
+.item2{background-image: url(images/abrigos/buso-manga-ranglan-con-estampado.jpg); }
+.item3{background-image: url(images/abrigos/buzo-capota-con-estampado-en-el-frente-de-beverly-hills.jpg); }
+.item4{background-image: url(images/abrigos/buzo-capota-con-estampado-de-hello-kitty.jpg); }
+.item5{background-image: url(images/abrigos/buso2-manga-ranglan-con-estampado.jpg); }
+.item6{background-image: url(images/abrigos/buzo3-capota-con-estampado-en-el-frente-de-beverly-hills.jpg); }
+.item7{background-image: url(images/abrigos/4.jpg); }
+
+.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item11{
+	background-size: cover;
+	width: 80%;
+	height: 110%;
+}
+
+.imagen1{
+	background-size: cover;
+	width: 100%;
 	width: 100%;
 }
+
+.foto-det .imagen1 
+{
+	display: none;
+}
+
+.ventana:has(.item1:hover) .imagen1{
+	display: block;
+} 
+
+.ventana:has(.item1:hover) .imagen2{
+	border: 1px solid green;
+	display: none;
+} 
+
+.ventana:has(.item11:hover) .imagen1{
+	display: block;
+} 
+
+.ventana:has(.item11:hover) .imagen2{
+	border: 1px solid green;
+	display: none;
+} 
+
+
+/* ITEMSSSSSS  CAMISAS--------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/* ITEMSSSSPANTALONES--------------------------------------------*/
+
+
 
 .cont-det{
     padding: 4%;
@@ -484,6 +545,17 @@ main .card .label {
 	border-radius: 4%;
 	background-color:  rgb(240, 240, 240);
 }
+
+.foto-det img{
+	align-items: center;
+    padding: 5px;
+    background-size: cover;
+    height: 100%;
+	width: 100%;
+}
+
+
+
 
 .titulo-det{
     display: flex;
